@@ -1,0 +1,84 @@
+/* 로그인 페이지 css*/
+main section {
+  text-align: center;
+  height: 230px;
+}
+
+.form {
+  display: grid;
+  justify-content: center;
+}
+.join__box {
+  width: 450px;
+  height: 550px;
+  padding: 62px 58px 0 58px;
+  background-color: #ffffff;
+  position: relative;
+  top: 50px;
+  border-radius: 0.5vw;
+  box-shadow: 0 0 26px 0px rgba(19, 19, 19, 0.2);
+}
+.join__title, .join__title2 {
+  color: red;
+  font-size: 20px;
+}
+.join__title2 {
+  color: black;
+  margin-bottom: 2.5rem;
+}
+
+.username__check {
+  margin-bottom: 1rem;
+}
+.text-input, .text-input1 {
+  width: 435px;
+  height: 33px;
+  border-radius: 0.5vw;
+  border-width: 0.1px;
+  border-style: solid;
+  border-color: #a6a6a6;
+}
+
+.email-text {
+  color: #a6a6a6;
+}
+
+.text-input1 {
+  width: 435px;
+  margin-bottom: 1.8rem;
+}
+
+#btn__goup button {
+  width: 215px;
+  height: 37px;
+  border-radius: 0.4vw;
+  border: 0.5px;
+  background: #da553b;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.text__notice {
+  text-align: start;
+  color: #ced4da;
+  font-size: 15px;
+  margin-left: 5px;
+}
+  #login__main { 
+  width: 1903px;
+  height: 708px;
+}
+
+.social_login {
+    display: flex;
+    padding-top: 60px;
+}
+
+.googleLogin {
+    padding-right: 40px;
+}
+
+.facebookLogin a img {
+    padding-top: 7px;
+}
